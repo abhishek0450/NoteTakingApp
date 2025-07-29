@@ -9,6 +9,7 @@ import {
   Link,
   Alert,
 } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 import { GoogleLogin } from '@react-oauth/google';
 import { AuthContext } from '../context/AuthContext';
 import * as api from '../services/api';
@@ -188,7 +189,7 @@ const SignUp: React.FC = () => {
               </>
             )}
             <Grid container sx={{ mt: 2 }}>
-              <Link href="/signin" variant="body2">
+              <Link component={RouterLink} to="/signin" variant="body2">
                 {'Already have an account? Sign In'}
               </Link>
             </Grid>

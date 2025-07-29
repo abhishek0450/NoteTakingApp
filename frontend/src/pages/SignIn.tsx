@@ -11,6 +11,7 @@ import {
   Checkbox,
   FormControlLabel,
 } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 import { GoogleLogin } from '@react-oauth/google';
 import { AuthContext } from '../context/AuthContext';
 import * as api from '../services/api';
@@ -166,7 +167,7 @@ const SignIn: React.FC = () => {
               </>
             )}
             <Grid container sx={{ mt: 2 }}>
-              <Link href="/signup" variant="body2">
+              <Link component={RouterLink} to="/signup" variant="body2">
                 {"Need an account? Create one"}
               </Link>
             </Grid>
