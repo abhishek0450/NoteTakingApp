@@ -83,3 +83,6 @@ A full-stack note-taking application with secure authentication, responsive UI.
 5. Copy the client ID to your `.env` files
 
 ## Screenshots
+<img width="1326" height="639" alt="Screenshot 2025-07-30 124233" src="https://github.com/user-attachments/assets/99ea2402-dffb-475f-95dd-8f87ddd4f81c" />
+
+<img width="1307" height="634" alt="brave_screenshot_note-taking-app-xi-self vercel app" src="https://github.com/user-attachments/assets/9103e923-39f0-40d8-ba2e-dbc6186a9c56" />
